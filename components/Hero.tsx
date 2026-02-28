@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section className="relative h-[75vh] flex items-center justify-center">
       <Image
-        src="/images/hero.png"
+        src="/hero.png"
         alt="Research"
         fill
         className="object-cover"

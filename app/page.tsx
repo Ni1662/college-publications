@@ -12,7 +12,7 @@ export default function HomePage() {
           {/* Image Section */}
           <div className="relative">
             <Image
-              src="/images/research.jpg"
+              src="/research.jpg"
               alt="Research"
               width={600}
               height={450}

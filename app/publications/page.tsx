@@ -7,7 +7,7 @@ export default function PublicationsPage() {
     <>
       <section className="relative h-[75vh] flex items-center justify-center">
         <Image
-          src="/images/background3.png"
+          src="/background3.png"
           alt="Research"
           fill
           className="object-cover"
