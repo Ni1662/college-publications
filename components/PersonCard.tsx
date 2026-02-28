@@ -10,7 +10,7 @@ export default function PersonCard({ name, role, image }: Props) {
   return (
     <div className="bg-white rounded-2xl shadow-md hover:shadow-xl transition overflow-hidden border border-brand-light group">
       
-      <div className="relative aspect-[4/5] w-full overflow-hidden">
+      <div className="relative aspect-[5/6] w-full overflow-hidden">
         <Image
           src={image}
           alt={name}

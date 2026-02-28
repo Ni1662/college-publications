@@ -25,15 +25,15 @@ export default function PeoplePage() {
             </h2>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-10">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
             <PersonCard
               name="Kulsoom Sayed"
-              role="Doctoral Researcher"
+              role="Doctoral Student"
               image="/S5.jpeg"
             />
             <PersonCard
               name="Manasi Shinde"
-              role="Doctoral Researcher"
+              role="Doctoral Student"
               image="/S8.jpeg"
             />
           </div>
@@ -52,7 +52,7 @@ export default function PeoplePage() {
             <PersonCard name="Nikhil Singh" role="Master's Student" image="/S2.jpeg" />
             <PersonCard name="Shiv Gupta" role="Master's Student" image="/S3.jpeg" />
             <PersonCard name="Yosha Jaria" role="Master's Student" image="/S4.jpeg" />
-            <PersonCard name="Aryan Patil" role="Master's Student" image="/S7.jpeg" />
+            <PersonCard name="Aryan Patil" role="Master's Student" image="/S9.jpeg" />
             <PersonCard name="Jeetusri S" role="Master's Student" image="/S6.jpeg" />
             <PersonCard name="Timothy Gladston" role="Master's Student" image="/S1.jpeg" />
           </div>
