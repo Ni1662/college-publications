@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -21,9 +22,11 @@ export default function Hero() {
           Advancing Innovation Through Academic Excellence
         </p>
 
-        <button className="mt-8 bg-white text-brand-primary px-8 py-3 rounded-full font-semibold hover:bg-brand-light transition shadow-lg">
-          Explore Publications
-        </button>
+        <Link href="/publications">
+          <button className="mt-8 bg-white text-brand-primary px-8 py-3 rounded-full font-semibold hover:bg-brand-light transition shadow-lg">
+            Explore Publications
+          </button>
+        </Link>
       </div>
     </section>
   );

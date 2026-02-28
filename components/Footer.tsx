@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -74,19 +75,19 @@ export default function Footer() {
               href="#"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
-              🌐
+              <Image src="/images/instagram.png" alt="Instagram" width={20} height={20} />
             </a>
             <a
               href="#"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
-              🐦
+              <Image src="/images/twitter.png" alt="Twitter" width={20} height={20} />
             </a>
             <a
               href="#"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
-              💼
+              <Image src="/images/linkedin.png" alt="LinkedIn" width={20} height={20} />
             </a>
           </div>
         </div>
