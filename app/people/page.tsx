@@ -29,12 +29,12 @@ export default function PeoplePage() {
             <PersonCard
               name="Kulsoom Sayed"
               role="Doctoral Researcher"
-              image="/images/S5.jpeg"
+              image="/S5.jpeg"
             />
             <PersonCard
               name="Manasi Shinde"
               role="Doctoral Researcher"
-              image="/images/S8.jpeg"
+              image="/S8.jpeg"
             />
           </div>
         </section>
