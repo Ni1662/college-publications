@@ -7,9 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-14 grid md:grid-cols-4 gap-10">
         {/* About */}
         <div>
-          <h2 className="text-xl font-semibold mb-4">
-            VKA Research Group
-          </h2>
+          <h2 className="text-xl font-semibold mb-4">VKA Research Group</h2>
           <p className="text-sm text-brand-primary/80 leading-relaxed">
             Dedicated to advancing research excellence through innovation,
             collaboration, and impactful publications across multiple
@@ -79,32 +77,21 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Follow Us</h3>
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://scholar.google.com/citations?user=YJlMWZIAAAAJ&hl=en"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
               <Image
-                src="/instagram.png"
-                alt="Instagram"
+                src="/scholar.png"
+                alt="Google Scholar"
                 width={20}
                 height={20}
               />
             </a>
             <a
-              href="#"
+              href="https://www.ictmumbai.edu.in/emp_profiledetail.aspx?nDeptID=cea"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
-              <Image src="/twitter.png" alt="Twitter" width={20} height={20} />
-            </a>
-            <a
-              href="#"
-              className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
-            >
-              <Image
-                src="/linkedin.png"
-                alt="LinkedIn"
-                width={20}
-                height={20}
-              />
+              <Image src="/user.png" alt="profile" width={20} height={20} />
             </a>
           </div>
         </div>
