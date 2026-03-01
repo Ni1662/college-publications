@@ -13,7 +13,7 @@ export default function Hero() {
           VKA Research Group
         </h1>
         <p className="text-lg md:text-l max-w-2xl mx-auto text-white/90">
-          We learn from nature ...
+          we learn from nature ...
         </p>
 
         <h1 className="text-lg md:text-3xl max-w-2xl mx-auto text-white/90 font-bold mt-6">
