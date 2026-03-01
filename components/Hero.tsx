@@ -16,7 +16,7 @@ export default function Hero() {
           We learn from nature ...
         </p>
 
-        <h1 className="text-lg md:text-3xl max-w-2xl mx-auto text-white/90">
+        <h1 className="text-lg md:text-3xl max-w-2xl mx-auto text-white/90 font-bold mt-6">
           Dr. Vijay Kumar A
         </h1>
 
