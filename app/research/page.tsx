@@ -37,7 +37,7 @@ export default function ResearchPage() {
             ]}
           />
           <ResearchCard
-            title="Bioinspired / Biomimetic Chesmistry"
+            title="Bioinspired / Biomimetic Chemistry"
             points={[
               "Mimicking natural enzymatic processes",
               "Designing nature-inspired catalysts",
