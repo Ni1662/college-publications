@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -16,9 +17,17 @@ export default function Navbar() {
   return (
     <nav className="bg-white/80 backdrop-blur-md border-b border-brand-light sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-brand-primary tracking-wide">
-          Research Portal
-        </h1>
+        <div className="flex items-center gap-4">
+          <Image
+            src="/logo.png"
+            alt="VKA Research Group Logo"
+            width={50}
+            height={50}
+          />
+          <h1 className="text-2xl font-bold text-brand-primary tracking-wide">
+            VKA Research Group
+          </h1>
+        </div>
 
         <div className="flex gap-8">
           {navLinks.map((link) => {

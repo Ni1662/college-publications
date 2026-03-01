@@ -48,13 +48,18 @@ export default function PublicationAccordion({ data }: any) {
                   {item.papers.map((paper: any, i: number) => (
                     <div
                       key={i}
-                      className="p-4 bg-white rounded-lg border border-brand-light hover:shadow-md transition duration-300"
+                      className="p-4 bg-white rounded-lg border border-brand-light hover:shadow-md transition duration-300 cursor-pointer"
+                      onClick={() => window.open(paper.link, paper.link.startsWith("http") ? "_blank" : "_self")}
                     >
+
                       <p className="font-medium text-gray-800">
                         {paper.title}
                       </p>
                       <p className="text-sm text-gray-500">
                         {paper.journal}
+                      </p>
+                      <p className="text-xs text-gray-400 mt-1">
+                        {paper.authors}
                       </p>
                     </div>
                   ))}

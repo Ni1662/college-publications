@@ -5,11 +5,10 @@ export default function Footer() {
   return (
     <footer className="bg-brand-light text-brand-primary mt-20">
       <div className="max-w-7xl mx-auto px-6 py-14 grid md:grid-cols-4 gap-10">
-        
         {/* About */}
         <div>
           <h2 className="text-xl font-semibold mb-4">
-            College Research Portal
+            VKA Research Group
           </h2>
           <p className="text-sm text-brand-primary/80 leading-relaxed">
             Dedicated to advancing research excellence through innovation,
@@ -59,11 +58,19 @@ export default function Footer() {
 
         {/* Contact Info */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Contact</h3>
+          <h3 className="text-lg font-semibold mb-4">
+            For inquiries, please Contact:
+          </h3>
           <ul className="text-sm space-y-2 text-brand-primary/80">
-            <li>Email: research@college.edu</li>
-            <li>Phone: +91 98765 43210</li>
-            <li>Mumbai, Maharashtra, India</li>
+            <li>
+              Dr. Vijay Kumar A <br />
+              Assistant Professor in Organic Chemistry <br />
+              Department of Chemistry <br /> Institute of Chemical Technology{" "}
+              <br />
+              Mumbai, Maharashtra, India
+            </li>
+            <li>Email: v.kumar@ictmumbai.edu.in</li>
+            <li>Phone: 022-3361-2619</li>
           </ul>
         </div>
 
@@ -75,19 +82,29 @@ export default function Footer() {
               href="#"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
-              <Image src="/images/instagram.png" alt="Instagram" width={20} height={20} />
+              <Image
+                src="/instagram.png"
+                alt="Instagram"
+                width={20}
+                height={20}
+              />
             </a>
             <a
               href="#"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
-              <Image src="/images/twitter.png" alt="Twitter" width={20} height={20} />
+              <Image src="/twitter.png" alt="Twitter" width={20} height={20} />
             </a>
             <a
               href="#"
               className="bg-white/20 p-2 rounded-lg hover:bg-brand-light hover:text-brand-primary transition"
             >
-              <Image src="/images/linkedin.png" alt="LinkedIn" width={20} height={20} />
+              <Image
+                src="/linkedin.png"
+                alt="LinkedIn"
+                width={20}
+                height={20}
+              />
             </a>
           </div>
         </div>
@@ -95,7 +112,8 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="bg-brand-secondary py-6 text-center text-sm text-white/90">
-        © {new Date().getFullYear()} College Research Portal. All rights reserved.
+        © {new Date().getFullYear()} College Research Portal. All rights
+        reserved.
       </div>
     </footer>
   );
