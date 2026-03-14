@@ -159,4 +159,23 @@ export const publications = [
       },
     ],
   },
+  {
+    year: 2015,
+    papers: [
+      {
+        title:
+          "Machine loading in flexible manufacturing system",
+        journal: " Int J Eng Sci Invent Res Dev, 2015",
+        link: "https://www.academia.edu/download/37094238/paper_jan_3.pdf",
+        authors: "A Kumar, K Rao",
+      },
+      {
+        title:
+          "Magnetically recyclable iron oxide nanoparticles for the α-cyanation of amines under acid-free conditions and the formal synthesis of praziquantel",
+        journal: "RSC Advances, 2015",
+        link: "https://doi.org/10.1039/C5RA10552H",
+        authors: "Anant R. Kapdi and A. Vijay Kumar Mahendra Patil",
+      },
+    ],
+  },
 ];
